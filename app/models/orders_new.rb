@@ -1,0 +1,2 @@
+class OrdersNew < ApplicationRecord
+end

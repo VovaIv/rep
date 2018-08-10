@@ -1,0 +1,2 @@
+module HzsHelper
+end

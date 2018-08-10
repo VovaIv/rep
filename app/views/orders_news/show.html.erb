@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Num:</strong>
+  <%= @orders_news.num %>
+</p>
+
+<p>
+  <strong>Hz:</strong>
+  <%= @orders_news.hz %>
+</p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @orders_news.client %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @orders_news.date %>
+</p>
+
+<%= link_to 'Edit', edit_orders_news_path(@orders_news) %> |
+<%= link_to 'Back', orders_news_path %>

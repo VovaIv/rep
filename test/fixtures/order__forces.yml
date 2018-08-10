@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  num: MyString
+  hz: 1
+  client: MyString
+  date: 
+
+two:
+  name: MyString
+  num: MyString
+  hz: 1
+  client: MyString
+  date: 

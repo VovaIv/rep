@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Order  Forces</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Num</th>
+      <th>Hz</th>
+      <th>Client</th>
+      <th>Date</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @order__forces.each do |order__force| %>
+      <tr>
+        <td><%= order__force.name %></td>
+        <td><%= order__force.num %></td>
+        <td><%= order__force.hz %></td>
+        <td><%= order__force.client %></td>
+        <td><%= order__force.date %></td>
+        <td><%= link_to 'Show', order__force %></td>
+        <td><%= link_to 'Edit', edit_order__force_path(order__force) %></td>
+        <td><%= link_to 'Destroy', order__force, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Order  Force', new_order__force_path %>

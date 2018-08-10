@@ -1,0 +1,2 @@
+class OrderForce < ApplicationRecord
+end

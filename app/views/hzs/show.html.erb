@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @hz.name %>
+</p>
+
+<p>
+  <strong>Num:</strong>
+  <%= @hz.num %>
+</p>
+
+<p>
+  <strong>Hz:</strong>
+  <%= @hz.hz %>
+</p>
+
+<p>
+  <strong>Client:</strong>
+  <%= @hz.client %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @hz.date %>
+</p>
+
+<%= link_to 'Edit', edit_hz_path(@hz) %> |
+<%= link_to 'Back', hzs_path %>
